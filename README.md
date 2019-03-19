@@ -15,4 +15,4 @@ Run the following command with the root directory of your project (the same dire
 ```
 composer-drupal-common
 ```
-You will then be presented with a list of modules to install, use the arrow keys to navigate the list and space bar to select/deselect modules.
+You will then be presented with a list of modules to install, use the arrow keys to navigate the list and spacebar to select/deselect modules.
