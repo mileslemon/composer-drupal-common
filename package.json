@@ -20,6 +20,6 @@
     "inquirer": "^6.2.2"
   },
   "bin": {
-    "d8-modules": "./index.js"
+    "composer-drupal-common": "./index.js"
   }
 }
