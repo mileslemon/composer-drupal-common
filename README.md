@@ -18,5 +18,5 @@ composer-drupal-common
 You will then be presented with a list of modules to install, use the arrow keys to navigate the list and spacebar to select/deselect modules.
 
 ### Future Features:
-[ ] After modules have been installed give users the option to enable the modules with Drush.
-[ ] Allow users to create their own list of modules that they commonly use.
+[checkbox:unchecked] After modules have been installed give users the option to enable the modules with Drush.
+[checkbox:unchecked] Allow users to create their own list of modules that they commonly use.
