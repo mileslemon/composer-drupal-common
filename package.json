@@ -1,13 +1,19 @@
 {
-  "name": "composer-drupal-common",
-  "version": "1.0.0",
-  "description": "A tool to install initial drupal 8 modules",
+  "name": "drupal-composer-common",
+  "version": "1.0.1",
+  "description": "A command-line tool for installing common Drupal 8 contrib modules using composer.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Miles Lemon",
   "license": "ISC",
+  "keywords": [
+    "drupal",
+    "drupal 8",
+    "composer",
+    "php"
+  ]
   "dependencies": {
     "chalk": "^2.4.2",
     "figlet": "^1.2.1",
