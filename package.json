@@ -1,5 +1,5 @@
 {
-  "name": "d8-modules",
+  "name": "composer-drupal-common",
   "version": "1.0.0",
   "description": "A tool to install initial drupal 8 modules",
   "main": "index.js",
