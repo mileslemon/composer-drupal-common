@@ -15,8 +15,8 @@ Run the following command with the root directory of your project (the same dire
 ```
 drupal-lists
 ```
-You will then be presented with a list of modules to install, use the arrow keys to navigate the list and spacebar to select/deselect modules.
+Choose the second option to create your first list where you can then add modules to that list.
 
 ### Future Features:
-- [ ] After modules have been installed give users the option to enable the modules with Drush.
-- [ ] Allow users to create their own list of modules that they commonly use.
+- [x] After modules have been installed give users the option to enable the modules with Drush.
+- [x] Allow users to create their own list of modules that they commonly use.
