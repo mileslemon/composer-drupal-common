@@ -1,4 +1,4 @@
-# composer-drupal-common
+# drupal-lists
 This is a command-line tool for installing common Drupal 8 modules using composer. This tool allows you to easily pick and choose which of the listed contrib modules you wish to install via composer.
 
 ### Requirements:
@@ -7,13 +7,13 @@ This is a command-line tool for installing common Drupal 8 modules using compose
 
 ### Installation:
 ```
-npm install -g composer-drupal-common 
+npm install -g drupal-lists 
 ```
 
 ### Usage:
 Run the following command with the root directory of your project (the same directory as your `composer.json` file).
 ```
-composer-drupal-common
+drupal-lists
 ```
 You will then be presented with a list of modules to install, use the arrow keys to navigate the list and spacebar to select/deselect modules.
 
