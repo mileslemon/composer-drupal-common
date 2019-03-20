@@ -1,14 +1,14 @@
 {
-  "name": "composer-drupal-common",
-  "version": "1.0.6",
-  "description": "A command-line tool for installing common Drupal 8 contrib modules using composer.",
+  "name": "drupal-lists",
+  "version": "1.0.0",
+  "description": "A command-line tool for creating lists of drupal modules that you can then easily install and enable across all your projects.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Miles Lemon",
   "license": "ISC",
-  "repository": "https://github.com/mileslemon/composer-drupal-common",
+  "repository": "https://github.com/mileslemon/drupal-lists",
   "keywords": [
     "drupal",
     "drupal 8",
@@ -17,10 +17,11 @@
   ],
   "dependencies": {
     "chalk": "^2.4.2",
+    "configstore": "^4.0.0",
     "figlet": "^1.2.1",
     "inquirer": "^6.2.2"
   },
   "bin": {
-    "composer-drupal-common": "./index.js"
+    "drupal-lists": "./index.js"
   }
 }
