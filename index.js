@@ -136,15 +136,18 @@ const run = async() => {
         const answerDeleteListModules = await lists.deleteListModules(answerGetLists);
         continouslyRemoveModules = answerDeleteListModules;
       }
+      return run();
     } else if (listOption === 'Delete list') {
       // delete list
       const answerDeleteList = await lists.deleteList(answerGetLists);
+      return run();
     }
   } else if (startOption === 'Create new list') {
     const answerCreateNewList = await lists.setList();
     console.log(
-      chalk.green(answerCreateNewList + ': list created successfully.')
+      chalk.green(answerCreateNewList + ': list successfully created.')
     );
+    return run();
   } else if (startOption === 'Delete lists') {
     // delete lists
     let continouslyDeleteLists = true;
@@ -152,6 +155,7 @@ const run = async() => {
       const answerDeleteLists = await lists.deleteLists();
       continouslyDeleteLists = answerDeleteLists;
     }
+    return run();
   }
 }
 
