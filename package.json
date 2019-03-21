@@ -1,6 +1,6 @@
 {
   "name": "drupal-lists",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A command-line tool for creating lists of Drupal 8 modules that you can then easily install and enable across all your projects.",
   "main": "index.js",
   "scripts": {
